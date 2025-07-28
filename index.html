@@ -33,6 +33,25 @@
       border: 1px solid #ccc;
       width: 200px;
     }
+    .card {
+      background: white;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      margin: 20px auto;
+      max-width: 300px;
+      text-align: left;
+    }
+    .card-img {
+      border-top-left-radius: 8px;
+      border-top-right-radius: 8px;
+      width: 100%;
+    }
+    .card-content {
+      padding: 15px;
+    }
+    .card-link {
+      text-decoration: none;
+    }
   </style>
 </head>
 <body>
@@ -48,5 +67,14 @@
   <video width="320" height="240" autoplay loop muted>
     <source src="ten-video.mp4.mp4" type="video/mp4">
   </video>
+  <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&t=3s" class="card-link">
+    <div class="card">
+      <img src="ten-anh.jpg.png" alt="Mô tả ảnh" class="card-img">
+      <div class="card-content">
+        <h3>Tiêu đề</h3>
+        <p>Mô tả ngắn về nội dung hoặc sản phẩm.</p>
+      </div>
+    </div>
+  </a>
 </body>
 </html>
